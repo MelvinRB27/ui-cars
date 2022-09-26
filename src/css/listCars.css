@@ -1,0 +1,17 @@
+.listCards{
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.cardElements{
+    margin: auto;
+    margin-top: 2%;
+    display: inline-flex;
+}
+
+.input-group{
+    margin: auto;
+    width: 50%;
+}

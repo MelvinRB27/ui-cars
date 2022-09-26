@@ -1,0 +1,54 @@
+.containerList{
+    width: 200px;;
+    height: auto;
+    margin-right: 3%;
+    box-shadow: 5px 15px 25px black;
+}
+
+.containerList .card{
+    width: 100%;
+    height: 320px;
+    padding: 3%;
+}
+
+.containerList .card img{
+    width: 100%;
+    height: 50%;
+    transition: transform .2s;
+    border-radius: 5%;
+}
+.containerList .card img:hover{
+    transform: scale(0.5);
+}
+
+.containerList .card h6{
+    font-size: 12px;
+    text-align: left;
+    margin-left: 3%;
+    margin-top: 3%;
+    text-transform: uppercase;
+
+}
+.containerList .card .btns {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.containerList .card .btns .btn {
+    text-decoration: none;
+    font-size: 10px;
+    margin-right: 1%;
+}
+.containerList .card .btns .btn:hover {
+    font-size: 12px;
+    color: black;
+}
+.containerList .card .btns .btn-dark:hover {
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+
+.infoCars{
+    margin-bottom: 10%;
+}

@@ -1,0 +1,26 @@
+.containerForm{
+    margin-top: 5%;
+    margin-bottom: 10%;
+
+}
+
+.containerForm form{
+    margin: auto;
+    width: 400px;
+    opacity: 55%;
+    padding: 3%;
+}
+
+.containerForm form input{
+    text-align: center;
+    margin-bottom: 15px;
+    box-shadow: 0px 5px 10px black;
+}
+
+.containerForm form button{
+    border-radius: 5%;
+    color: red;
+    font-size: 20px;
+    width: 150px;
+    background-color: white;
+}
